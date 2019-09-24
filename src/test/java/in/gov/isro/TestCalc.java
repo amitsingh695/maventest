@@ -28,7 +28,7 @@ public class TestCalc {
 	public void test3() {
 		Calculator calc = new Calculator();
 		int result = calc.divide(5, 5);
-		assertEquals(0, result);
+		assertEquals(1, result);
 	}
 
 }
